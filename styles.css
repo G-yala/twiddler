@@ -1,0 +1,79 @@
+
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html, body {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+/* body */
+#app {
+  font-family: monospace;
+  font-size: normal;
+  text-align: center;
+}
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+/* import */
+
+body {
+  background-color: transparent;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+  background-size: 100%;
+  /* color: #04C8DE; */
+}
+
+h1 {
+  display: block;
+  font-size: initial;
+  color: #2ecddf;
+  font-size: 60px;
+  border: solid;
+  border-color: #FF5EDF;
+}
+
+img {
+  height: 45px;
+  border-radius: 40%;
+  align-content: left;
+}
+
+button {
+  height: 35%;
+  width: 8%;
+  background: linear-gradient(50deg, #FF5EDF 0%, #04C8DE 100%);
+  border-color: thistle;
+  border-radius: 10%;
+}
+
+i {
+  border: 2px solid whitesmoke;
+  border-radius: 15%;
+  height: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+i:hover {
+  color: teal;
+}
+
+.tweet {
+  border: solid;
+  border-radius: 55%;
+  margin: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #2ecddf;
+}
+
+
+
+
+
+
+
+
+
+
